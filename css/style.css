@@ -1,0 +1,40 @@
+/*stylesheet*/
+
+/* vars */
+:root {
+  --background-color: #fff;
+  --body-color: #111;
+}
+
+body { 
+  font-family: 'Inter', sans-serif;
+  color: var(--body-color);
+  background: var(--background-color);
+}
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+
+.project {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.project-inner {
+  width: 100%;
+  background: blue;
+  position: relative;
+}
+
+
+
