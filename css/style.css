@@ -35,6 +35,17 @@ img {
   position: relative;
 }
 
+/*button 1*/
+.yes1 {
+  z-index: 3;
+  background: cyan;
+  position: absolute;
+  width:  20%;
+  height: 50%;
+  bottom: 30%;
+  left:  50%;
+}
+
 .image_off, #home:hover .image_on{
    display:none
 }
